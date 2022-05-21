@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/auriga/Documents/erp/build/shared_preferences_android/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/home/auriga/.gradle/caches/transforms-2/files-2.1/e30761457ee22a682aef79e1f6914d8a/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/auriga/Documents/erp/build/shared_preferences_android/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/home/auriga/.gradle/caches/transforms-2/files-2.1/e30761457ee22a682aef79e1f6914d8a/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/auriga/Documents/erp/build/shared_preferences_android/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/auriga/.gradle/caches/transforms-2/files-2.1/e30761457ee22a682aef79e1f6914d8a/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/auriga/Documents/erp/build/shared_preferences_android/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/home/auriga/.gradle/caches/transforms-2/files-2.1/e30761457ee22a682aef79e1f6914d8a/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    }
+]

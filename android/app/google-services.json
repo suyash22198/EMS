@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "628109887618",
+    "project_id": "erp-system-ca10c",
+    "storage_bucket": "erp-system-ca10c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628109887618:android:fed52f47d35c22e9dbcc9b",
+        "android_client_info": {
+          "package_name": "com.example.flutter_boiler_plate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628109887618-l4bln5m7uvtegj8c0geg9jat7eukcjrn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_boiler_plate",
+            "certificate_hash": "6ad0fa756068297839bf22fcf6d1c9a83d8372ef"
+          }
+        },
+        {
+          "client_id": "628109887618-b94lj4ihqeq2sfrjjlia32d2gj423b95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZjA5aQtLuRjTRwP4D8Yr45NS8Z7iVRs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628109887618-b94lj4ihqeq2sfrjjlia32d2gj423b95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

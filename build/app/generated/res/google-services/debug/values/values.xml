@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">628109887618-b94lj4ihqeq2sfrjjlia32d2gj423b95.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">628109887618</string>
+    <string name="google_api_key" translatable="false">AIzaSyAZjA5aQtLuRjTRwP4D8Yr45NS8Z7iVRs0</string>
+    <string name="google_app_id" translatable="false">1:628109887618:android:fed52f47d35c22e9dbcc9b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAZjA5aQtLuRjTRwP4D8Yr45NS8Z7iVRs0</string>
+    <string name="google_storage_bucket" translatable="false">erp-system-ca10c.appspot.com</string>
+    <string name="project_id" translatable="false">erp-system-ca10c</string>
+</resources>
