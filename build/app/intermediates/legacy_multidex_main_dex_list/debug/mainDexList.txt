@@ -249,6 +249,7 @@ com/google/firebase/database/annotations/NotNull.class
 com/google/firebase/database/annotations/Nullable.class
 com/google/firebase/platforminfo/AutoValue_LibraryVersion.class
 com/google/firebase/platforminfo/LibraryVersion.class
+com/google/firebase/storage/StorageException$ErrorCode.class
 com/google/j2objc/annotations/AutoreleasePool.class
 com/google/j2objc/annotations/J2ObjCIncompatible.class
 com/google/j2objc/annotations/LoopTranslation$LoopStyle.class

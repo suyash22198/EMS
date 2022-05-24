@@ -147,7 +147,7 @@ class BaseClass extends State {
       key: scaffoldKey,
       body: SafeArea(
           child: Stack(
-        overflow: Overflow.visible,
+        // overflow: Overflow.visible,
         children: [
           if (isLoading)
             Container(

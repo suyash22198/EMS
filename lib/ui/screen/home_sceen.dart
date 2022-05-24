@@ -3,6 +3,7 @@ import 'package:flutter_boiler_plate/base/scaling.dart';
 import 'package:flutter_boiler_plate/constants/assets.dart';
 import 'package:flutter_boiler_plate/constants/classes.dart';
 import 'package:flutter_boiler_plate/constants/colors.dart';
+import 'package:flutter_boiler_plate/store/feedback/feedback.dart';
 import 'package:flutter_boiler_plate/store/login/login.dart';
 import 'package:flutter_boiler_plate/ui/drawer/drawer_screen.dart';
 import 'package:flutter_boiler_plate/widgets/dashboard_item.dart';
@@ -16,6 +17,18 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+
+  late FeedbackStore _feedbackStore;
+
+
+  @override
+  void initState() {
+    super.initState();
+
+    _feedbackStore = FeedbackStore();
+  }
+
+
   @override
   Widget build(BuildContext context) {
                 Login login = Provider.of(context, listen: false);
@@ -30,7 +43,6 @@ class _HomeScreenState extends State<HomeScreen> {
         child: GridView(
           shrinkWrap: true,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3, crossAxisSpacing: 18, mainAxisSpacing: 24),
-
           children: [
             InkWell(
               onTap: (){
@@ -41,15 +53,32 @@ class _HomeScreenState extends State<HomeScreen> {
                 Navigator.pushNamed(context, Classes.teacherAttendance);
                 }
               },
+
               child: DashBoardItem(image: Icon(Icons.person_pin_sharp, color: Colors.white, size: Scaling.scaleByHeight(60)), title: 'Attendance')),
             DashBoardItem(image: Icon(Icons.book_outlined, color: Colors.white, size: Scaling.scaleByHeight(50)), title: 'Notes'),
-            DashBoardItem(image: Icon(Icons.feedback_outlined, color: Colors.white, size: Scaling.scaleByHeight(50)), title: 'Feedback'),
+            // DashBoardItem(image: Icon(Icons.feedback_outlined, color: Colors.white, size: Scaling.scaleByHeight(50)), title: 'Feedback'),
             DashBoardItem(image: Image.asset(Assets.HOLIDAY, width: Scaling.scaleByWidth(60), height: Scaling.scaleByHeight(50)), title: 'Planner'),
-            DashBoardItem(image: Icon(Icons.note_add_rounded, color: Colors.white, size: Scaling.scaleByHeight(50)), title: 'Assignments'),
+            
+            InkWell(
+              onTap: () {
+                if(login.isStudent){
+                  Navigator.pushNamed(context, Classes.assignmentScreen);
+                } else{
+                  Navigator.pushNamed(context, Classes.teacherAssignmentScreen);
+                }
+              },
+              child: DashBoardItem(image: Icon(Icons.note_add_rounded, color: Colors.white, size: Scaling.scaleByHeight(50)), title: 'Assignments')),
+            
             DashBoardItem(image: Image.asset(Assets.DISCUSS, width: Scaling.scaleByWidth(60), height: Scaling.scaleByHeight(60),), title: 'Discuss'),
             DashBoardItem(image: Image.asset(Assets.FORM, width: Scaling.scaleByWidth(60), height: Scaling.scaleByHeight(60)), title: 'Exam Form'),
-            DashBoardItem(image: Image.asset(Assets.FEEDBAC, width: Scaling.scaleByWidth(60), height: Scaling.scaleByHeight(60)), title: 'Feedback'),
-            DashBoardItem(image: Image.asset(Assets.COMPLAINT, width: Scaling.scaleByWidth(60), height: Scaling.scaleByHeight(60)), title: 'Complaint'),
+            
+            InkWell(
+              onTap: () {
+                _feedbackStore.launchURL();
+              },
+              child: DashBoardItem(image: Image.asset(Assets.FEEDBAC, width: Scaling.scaleByWidth(60), height: Scaling.scaleByHeight(60)), title: 'Feedback'),),
+            
+            // DashBoardItem(image: Image.asset(Assets.COMPLAINT, width: Scaling.scaleByWidth(60), height: Scaling.scaleByHeight(60)), title: 'Complaint'),
           ],
         )
       ),

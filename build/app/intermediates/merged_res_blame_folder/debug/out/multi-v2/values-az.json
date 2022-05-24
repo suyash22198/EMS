@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/auriga/Documents/erp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
+            "outputFile": "/home/auriga/Desktop/erp_system/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
             "map": [
                 {
                     "source": "/home/auriga/.gradle/caches/transforms-2/files-2.1/411b22674b0d029c4f99579bf8e80d05/core-1.7.0/res/values-az/values-az.xml",

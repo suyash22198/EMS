@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/auriga/Documents/erp/build/shared_preferences_android/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml",
+            "outputFile": "/home/auriga/Desktop/erp_system/build/shared_preferences_android/intermediates/res/merged/debug/values-sq/values-sq.xml",
             "map": [
                 {
                     "source": "/home/auriga/.gradle/caches/transforms-2/files-2.1/e30761457ee22a682aef79e1f6914d8a/core-1.6.0/res/values-sq/values-sq.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/home/auriga/Documents/erp/build/shared_preferences_android/intermediates/res/merged/debug/values-sq/values-sq.xml",
+            "outputFile": "/home/auriga/Desktop/erp_system/build/shared_preferences_android/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml",
             "map": [
                 {
                     "source": "/home/auriga/.gradle/caches/transforms-2/files-2.1/e30761457ee22a682aef79e1f6914d8a/core-1.6.0/res/values-sq/values-sq.xml",

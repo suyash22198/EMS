@@ -23,6 +23,7 @@ class _StudentAttendanceState extends State<StudentAttendance> {
       appBar: AppBar(
         backgroundColor: AppColors.primaryColor,
         title: Text('Attendance'),
+        titleSpacing: 0,
       ),
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: Scaling.scaleByWidth(16), vertical: Scaling.scaleByHeight(12)),

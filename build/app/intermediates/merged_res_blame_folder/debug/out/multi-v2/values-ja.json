@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/auriga/Documents/erp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/home/auriga/Desktop/erp_system/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "/home/auriga/.gradle/caches/transforms-2/files-2.1/1c9b4560f0cdd36f7e6f1ce87a8de288/jetified-play-services-base-18.0.1/res/values-ja/values.xml",

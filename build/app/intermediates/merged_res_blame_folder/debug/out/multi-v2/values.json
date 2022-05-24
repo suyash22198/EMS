@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/auriga/Documents/erp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/auriga/Desktop/erp_system/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/auriga/.gradle/caches/transforms-2/files-2.1/758d7a6746210dd2b162a82e66861c4b/coordinatorlayout-1.0.0/res/values/values.xml",
@@ -23,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "/home/auriga/Documents/erp/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/auriga/Desktop/erp_system/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,714",
+                        "endColumns": "143,81,103,108,119,99,76",
+                        "endOffsets": "194,276,380,489,609,709,786"
+                    },
+                    "to": {
+                        "startLines": "127,128,129,130,131,132,133",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "9009,9153,9235,9339,9448,9568,9668",
+                        "endColumns": "143,81,103,108,119,99,76",
+                        "endOffsets": "9148,9230,9334,9443,9563,9663,9740"
+                    }
+                },
+                {
+                    "source": "/home/auriga/Desktop/erp_system/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -147,23 +164,6 @@
                         "startOffsets": "6495",
                         "endColumns": "42",
                         "endOffsets": "6533"
-                    }
-                },
-                {
-                    "source": "/home/auriga/Documents/erp/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,714",
-                        "endColumns": "143,81,103,108,119,99,76",
-                        "endOffsets": "194,276,380,489,609,709,786"
-                    },
-                    "to": {
-                        "startLines": "127,128,129,130,131,132,133",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "9009,9153,9235,9339,9448,9568,9668",
-                        "endColumns": "143,81,103,108,119,99,76",
-                        "endOffsets": "9148,9230,9334,9443,9563,9663,9740"
                     }
                 }
             ]

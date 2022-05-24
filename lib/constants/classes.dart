@@ -17,4 +17,6 @@ class Classes {
   static const String studentListScreen = '/student_list_screen';
   static const String subjectListScreen = '/subject_list_screen';
   static const String studentAttendance = '/student_attendance';
+  static const String assignmentScreen = '/assignment_screen';
+  static const String teacherAssignmentScreen = '/teacher_assignment_screen';
 }

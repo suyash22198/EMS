@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_boiler_plate/constants/classes.dart';
 import 'package:flutter_boiler_plate/ui/demo_list.dart';
+import 'package:flutter_boiler_plate/ui/screen/assignment_screen.dart';
 import 'package:flutter_boiler_plate/ui/screen/google_signin.dart';
 import 'package:flutter_boiler_plate/ui/screen/otp_screen.dart';
 import 'package:flutter_boiler_plate/ui/screen/phone_auth_screen.dart';
@@ -10,6 +11,7 @@ import 'package:flutter_boiler_plate/ui/screen/student_attendance.dart';
 import 'package:flutter_boiler_plate/ui/screen/student_list_screen.dart';
 import 'package:flutter_boiler_plate/ui/screen/subject_list_screen.dart';
 import 'package:flutter_boiler_plate/ui/screen/tab_screen.dart';
+import 'package:flutter_boiler_plate/ui/screen/teacher_assignment_screen.dart';
 import 'package:flutter_boiler_plate/ui/screen/teacher_attendance_screen.dart';
 import 'package:flutter_boiler_plate/ui/sign_up_screen.dart';
 
@@ -79,6 +81,16 @@ class Routing {
       case Classes.studentAttendance:
         return MaterialPageRoute(
             builder: (_) => StudentAttendance(),
+            settings: RouteSettings(name: settings.name));
+      
+      case Classes.assignmentScreen:
+        return MaterialPageRoute(
+            builder: (_) => AssignmentScreen(),
+            settings: RouteSettings(name: settings.name));
+
+      case Classes.teacherAssignmentScreen:
+        return MaterialPageRoute(
+            builder: (_) => TeacherAssignmentScreen(),
             settings: RouteSettings(name: settings.name));
 
       default:
